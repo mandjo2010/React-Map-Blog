@@ -12,22 +12,14 @@ function App() {
   return (
     <Router>
       <TopBar />
-    
-      <Switch>
-            <Route exact path="/">
-              <Homepage />
-            </Route>
-            <Route path="/register">{user ? <Homepage /> :<Register />}</Route>
-            <Route path="/login">{user ? <Homepage /> :<Login />}</Route>
-            <Route path="/write">{user ? <Write /> :<Register />}</Route>
-            <Route path="/write">{user ? <Settings /> :<Register />}</Route>
-            <Route path="/settings">
-              <Settings />
-            </Route>
-            <Route path="/post/:Id">
-              <Single />
-            </Route>
-      </Switch>
+          <Switch>
+            <Route exact path="/"><Homepage /></Route>
+            <Route path="/register">{user ? <Homepage /> : <Register />}</Route>
+            <Route path="/login">{user ? <Homepage /> : <Login />}</Route>
+            <Route path="/write">{user ? <Write /> : <Register />}</Route>
+            <Route path="/settings">{user ? <Settings /> : <Register />}</Route>
+            <Route path="/post/:postId"><Single /></Route>
+          </Switch>
     </Router>
   );
 }
