@@ -14,18 +14,18 @@ export default function Sidebar() {
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
           amet ex esse.Sunt eu ut nostrud id quis proident. 
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
-          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
         </p>
         <p>
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
           amet ex esse.Sunt eu ut nostrud id quis proident. 
           Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
-          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
-          amet ex esse.Sunt eu ut nostrud id quis proident.
         </p>
+        <p>
+          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
+          amet ex esse.Sunt eu ut nostrud id quis proident. 
+          Laboris sunt aute cupidatat velit magna velit ullamco dolore mollit
+        </p>
+    
       </div>
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>

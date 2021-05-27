@@ -27,6 +27,7 @@
   margin-top: 15px;
   margin-right: 10px;
   cursor: pointer;
+  font-family: "Indie Flower", cursive;
 }
 
 .postTitle {
@@ -35,6 +36,7 @@
   font-weight: 900;
   margin-top: 15px;
   cursor: pointer;
+  font-family: "Indie Flower", cursive;
 }
 
 .postDate {
@@ -44,6 +46,7 @@
   font-weight: 400;
   color: #999999;
   margin-top: 15px;
+  font-family: "Indie Flower", cursive;
 }
 
 .postDesc {
@@ -58,4 +61,5 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  font-family: "Work Sans", sans-serif;
 }

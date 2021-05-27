@@ -10,6 +10,7 @@
     ),
     url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
   background-size: cover;
+  font-family: "Indie Flower", cursive;
 }
 
 .loginTitle {
@@ -31,6 +32,7 @@
   background-color: white;
   border: none;
   border-radius: 10px;
+  font-family: "Indie Flower", cursive;
 }
 
 .loginInput:focus {
@@ -46,6 +48,7 @@
   border: none;
   border-radius: 10px;
   text-align: center;
+  font-family: "Indie Flower", cursive;
 }
 
 .loginRegisterButton {
@@ -58,4 +61,5 @@
   border: none;
   color: white;
   border-radius: 10px;
+  font-family: "Indie Flower", cursive;
 }

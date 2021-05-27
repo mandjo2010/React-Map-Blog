@@ -8,6 +8,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  font-family: "Work Sans", sans-serif;
 }
 
 .sidebarItem {
@@ -23,7 +25,7 @@
   border-top: solid 1px #a7a4a4;
   border-bottom: solid 1px #a7a4a4;
   text-align: center;
-  font-family: "IBM Plex Serif", serif;
+  font-family: "Indie Flower", cursive;
   font-size: 12px;
   line-height: 19px;
   color: #222222;
@@ -34,6 +36,8 @@
   margin-top: 15px;
   width: 250px;
   height: 250px;
+
+  font-family: "Work Sans", sans-serif;
 }
 
 .sidebarItem > p {
@@ -43,6 +47,8 @@
 .sidebarList {
   list-style-type: none;
   margin-bottom: 30px;
+
+  font-family: "Work Sans", sans-serif;
 }
 
 .sidebarListItem {
@@ -50,6 +56,8 @@
   width: 50%;
   margin-top: 15px;
   cursor: pointer;
+
+  font-family: "Work Sans", sans-serif;
 }
 
 .sidebarSocial {
@@ -58,6 +66,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  font-family: "Work Sans", sans-serif;
 }
 
 .sidebarIcon {
