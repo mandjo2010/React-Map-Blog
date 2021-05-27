@@ -6,9 +6,8 @@
   top: 0;
   display: flex;
   align-items: center;
+  font-family: "IBM Plex Serif", serif;
   z-index: 999;
-
-  font-family: "Roboto", sans-serif;
 }
 
 .topLeft,
